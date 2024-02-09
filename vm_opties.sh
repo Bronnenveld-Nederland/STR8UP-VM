@@ -147,31 +147,6 @@ function list_running_vms() {
     fi
 }
 
-# Functie voor het weergeven van gemaakte en draaiende virtuele machines
-function list_running_vms() {
-    echo "Lijst van gemaakte en draaiende virtuele machines:"
-    
-    # Gebruik vboxmanage om informatie op te halen over draaiende virtuele machines
-    running_vms=$(vboxmanage list runningvms)
-    
-    if [ -n "$running_vms" ]; then
-        echo "Draaiende virtuele machines:"
-        echo "$running_vms"
-    else
-        echo "Er zijn geen draaiende virtuele machines op dit moment."
-    fi
-
-    # Gebruik vboxmanage om informatie op te halen over alle virtuele machines
-    all_vms=$(vboxmanage list vms)
-
-    if [ -n "$all_vms" ]; then
-        echo "Alle virtuele machines:"
-        echo "$all_vms"
-    else
-        echo "Er zijn geen gemaakte virtuele machines op dit moment."
-    fi
-}
-
 # Verwijder Virtuele Machine(s)
 function remove_vm() {
     check_vm_created

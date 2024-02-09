@@ -42,11 +42,13 @@ Geeft een overzicht van beschikbare opties en instructies.
 Beëindigt het script.
 
 # Gebruik
-Clone de repository naar je lokale machine.
-Zorg ervoor dat VirtualBox is geïnstalleerd op je systeem.
-Maak de scriptbestanden uitvoerbaar met: chmod +x *.sh.
-Voer het script uit met: ./main.sh.
-Volg het interactieve menu om de gewenste acties uit te voeren.
+1. Clone de repository naar je lokale machine met: git clone https://github.com/Bronnenveld-Nederland/str8upvm/
+2. Navigeer naar de map met: cd str8upvm 
+3. Maak de scriptbestanden uitvoerbaar met het: chmod +x *.sh
+4. Voer het script uit met: ./main.sh
+5. Volg het interactieve menu om de gewenste acties uit te voeren.
+
+Bedankt voor het gebruik van STR8UP-VM! We waarderen je bijdrage en feedback.
 
 # Bijdragen
 Dit script is open source en we verwelkomen bijdragen. Als je suggesties hebt of problemen tegenkomt, maak dan een pullrequest aan of meld een probleem.
