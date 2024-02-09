@@ -1,2 +1,58 @@
 # STR8UP-VM
 Een krachtig en gebruiksvriendelijk script voor het snel configureren van VirtualBox. Installeer VirtualBox, maak VM's aan, wijs opslag en netwerk toe, en configureer beveiligingsinstellingen. Optimaliseer prestaties en breid functionaliteiten uit. Eenvoudig, snel, en klaar voor productiegebruik. 
+
+# Welkom bij STR8UP | Het VirtualBox CLI Configuratie! 
+Dit script biedt basisfuncties voor het configureren van VirtualBox in een productieomgeving. Het is gericht op het optimaliseren van prestaties, veiligheid en onderhoudbaarheid. 
+
+## Functionaliteiten
+Hieronder vind je een overzicht van de belangrijkste functionaliteiten en instructies voor gebruik.
+
+# Installeren VirtualBox
+Installeert VirtualBox op het systeem.
+
+# Installeren Extensiepakket (Optioneel)  
+Installeert een extensiepakket voor extra functionaliteit.    
+    
+# VM Configuratie
+Aanmaken Virtuele Machine: 
+Maakt een nieuwe virtuele machine aan volgens opgegeven specificaties.
+
+# Toewijzen Opslag: 
+Koppelt opslag aan de virtuele machine.
+
+# Toewijzen Netwerkadapter 
+Wijs een netwerkadapter toe aan de virtuele machine.
+
+# Stoppen/Herstarten Virtuele Machine
+Beheert de status van de virtuele machine.
+
+# Configureren Netwerkinstellingen
+Stelt netwerkinstellingen in binnen de virtuele machine.
+
+# Toevoegen Port Forwarding 
+Voegt port forwarding toe voor publieke toegang.
+
+# Versie tonen
+Toont de versie van het script.    
+
+# Help tonen 
+Geeft een overzicht van beschikbare opties en instructies.
+
+# Script Afsluiten 
+Beëindigt het script.
+
+# Gebruik
+Clone de repository naar je lokale machine.
+Zorg ervoor dat VirtualBox is geïnstalleerd op je systeem.
+Maak de scriptbestanden uitvoerbaar met: chmod +x *.sh.
+Voer het script uit met: ./main.sh.
+Volg het interactieve menu om de gewenste acties uit te voeren.
+
+# Bijdragen
+Dit script is open source en we verwelkomen bijdragen. Als je suggesties hebt of problemen tegenkomt, maak dan een pullrequest aan of meld een probleem.
+
+# Ondersteuning
+Als je dit script nuttig vindt, overweeg dan om een kopje koffie te doneren via deze link:
+
+# Licentie
+Dit project valt onder de MIT-licentie. Voel je vrij om het te gebruiken en aan te passen naar jouw behoeften.
